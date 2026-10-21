@@ -40,7 +40,7 @@ function render(results,options){
   card.append(element('h3',`${r.name?r.name+' · ':''}${NATURES[r.nature]} · Shiny prediction`));
   const row=element('div',undefined,'iv-row');['HP','ATK','DEF','SP.ATK','SP.DEF','SPEED'].forEach((label,i)=>{const c=element('div');c.append(element('small',label),element('b',r.ivs[i]));row.append(c);});card.append(row);
   if(r.birds)card.append(element('p',r.birds.map(b=>`${b.name}: ${b.shiny?'SHINY':'not shiny'}`).join(' · '),'bird-result'));
-  const button=element('button',example?'Example only — import your game':'Track in monitor ↗','button secondary');button.type='button';button.disabled=example;
+  const button=element('button',example?'Example only — import your game':!snapshot?'Import snapshot to track':'Track in monitor ↗','button secondary');button.type='button';button.disabled=example||!snapshot;
   button.addEventListener('click',async()=>{
    const target={schema:'pt-rng-target-v1',seed:r.seed,tid:options.tid,sid:options.sid,sha256:snapshot?.sha256||'',mode:options.mode};
    try{await navigator.clipboard.writeText(JSON.stringify(target));button.textContent='Copied — paste target in monitor';}

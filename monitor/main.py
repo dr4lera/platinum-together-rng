@@ -6,11 +6,12 @@ from rng import distance
 
 GUIDE='https://dr4lera.github.io/platinum-together-rng/'
 
-def run():
+def run(smoke=False):
     import tkinter as tk
     from tkinter import ttk
     import webbrowser
     root=tk.Tk();root.title('PT RNG Monitor · Read only');root.geometry('780x660');root.minsize(680,600)
+    if smoke:root.withdraw()
     root.configure(bg='#101b20')
     style=ttk.Style();style.theme_use('clam')
     style.configure('TFrame',background='#101b20');style.configure('TLabel',background='#101b20',foreground='#e9f4ee',font=('Segoe UI',11))
@@ -78,7 +79,9 @@ def run():
     def close():
         if state['reader']:state['reader'].close()
         root.destroy()
-    root.protocol('WM_DELETE_WINDOW',close);tick();root.mainloop()
+    root.protocol('WM_DELETE_WINDOW',close);tick()
+    if smoke:root.after(100,close)
+    root.mainloop()
 
 if __name__=='__main__':
     if '--snapshot' in sys.argv:
@@ -88,4 +91,6 @@ if __name__=='__main__':
     elif '--self-test' in sys.argv:
         assert distance(0,next_seed:=__import__('rng').next_seed(0))==1
         print('Read-only monitor self-test passed.')
+    elif '--smoke-test' in sys.argv:
+        run(smoke=True)
     else:run()

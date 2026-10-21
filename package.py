@@ -43,7 +43,7 @@ def main():
         for p in sorted(bundle.rglob('*')):
             if p.is_file():z.write(p,p.relative_to(bundle))
     source=out/'PT-RNG-Lab-Source.zip'
-    allowed=['README.md','LICENSE','CHANGELOG.md','requirements-build.txt','package.py','monitor','docs','tests','third-party','.github']
+    allowed=['README.md','LICENSE','CHANGELOG.md','requirements-build.txt','package.py','serve.py','monitor','docs','tests','third-party','.github']
     with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as z:
         for name in allowed:
             p=ROOT/name

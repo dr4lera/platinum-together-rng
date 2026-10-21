@@ -48,7 +48,7 @@ The second command prints one snapshot to stdout. It does not write a file. Do n
 Preview the website:
 
 ```powershell
-python -m http.server 8765 --directory docs --bind 127.0.0.1
+python serve.py
 ```
 
 Open `http://127.0.0.1:8765`. ES modules/workers need HTTP(S), not a `file://` URL.
