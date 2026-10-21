@@ -33,7 +33,7 @@ def main():
     copying=next((dist.locate_file(f) for f in dist.files if str(f).endswith('COPYING.txt')),None)
     if not copying:raise RuntimeError('Missing PyInstaller license')
     shutil.copy2(copying,lic/'PyInstaller.txt')
-    shutil.copy2(ROOT/'third-party/Tcl.txt',lic/'Tcl.txt')
+    for p in (ROOT/'third-party').glob('*.txt'):shutil.copy2(p,lic/p.name)
     exe=bundle/'PT-RNG-Monitor.exe'
     manifest={'version':'1.0.0','file':exe.name,'sha256':hashlib.sha256(exe.read_bytes()).hexdigest(),
       'python':sys.version.split()[0],'pyinstaller':importlib.metadata.version('pyinstaller'),'platform':'Windows x64'}

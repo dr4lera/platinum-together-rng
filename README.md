@@ -69,7 +69,7 @@ python -m pip install -r requirements-build.txt
 python package.py
 ```
 
-Artifacts go to the ignored `artifacts/` directory. The executable is unsigned. Packaging includes CPython, Tcl/Tk and PyInstaller runtime components under their respective licenses; their installed license texts are included in the ZIP. The tool's own code is MIT licensed. No game files are bundled.
+Artifacts go to the ignored `artifacts/` directory. The executable is unsigned. Packaging includes CPython, Tcl/Tk, OpenSSL, libffi, zlib and PyInstaller runtime components under their respective licenses; license texts are included in the ZIP. The tool's own code is MIT licensed. No game files are bundled.
 
 ## Project layout
 
