@@ -1,0 +1,542 @@
+[
+  {
+    "mode": "stationary",
+    "seed": "00000000",
+    "sync": -1,
+    "pid": "D3C5AA89",
+    "nature": 0,
+    "ivs": [
+      10,
+      31,
+      16,
+      22,
+      0,
+      25
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000000",
+    "sync": 0,
+    "pid": "D3C5AA89",
+    "nature": 0,
+    "ivs": [
+      10,
+      31,
+      16,
+      22,
+      0,
+      25
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000000",
+    "sync": 13,
+    "pid": "DFC5706A",
+    "nature": 13,
+    "ivs": [
+      4,
+      20,
+      14,
+      0,
+      25,
+      20
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000000",
+    "sync": 22,
+    "pid": "945CE0C6",
+    "nature": 22,
+    "ivs": [
+      27,
+      17,
+      19,
+      18,
+      22,
+      31
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "00000000",
+    "offset": 0,
+    "pid": "E97E0000",
+    "nature": 14,
+    "ivs": [
+      17,
+      19,
+      20,
+      13,
+      12,
+      16
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "00000000",
+    "offset": 4,
+    "pid": "E2CC8E42",
+    "nature": 3,
+    "ivs": [
+      5,
+      30,
+      11,
+      30,
+      25,
+      27
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000001",
+    "sync": -1,
+    "pid": "C1672B1B",
+    "nature": 6,
+    "ivs": [
+      30,
+      13,
+      31,
+      19,
+      19,
+      11
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000001",
+    "sync": 0,
+    "pid": "5409EC74",
+    "nature": 0,
+    "ivs": [
+      24,
+      22,
+      9,
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000001",
+    "sync": 13,
+    "pid": "2FD8006E",
+    "nature": 13,
+    "ivs": [
+      10,
+      25,
+      16,
+      10,
+      11,
+      20
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "00000001",
+    "sync": 22,
+    "pid": "87C3D42D",
+    "nature": 22,
+    "ivs": [
+      12,
+      14,
+      11,
+      20,
+      29,
+      27
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "00000001",
+    "offset": 0,
+    "pid": "AC2141C6",
+    "nature": 3,
+    "ivs": [
+      14,
+      23,
+      20,
+      29,
+      7,
+      23
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "00000001",
+    "offset": 4,
+    "pid": "B6A879E3",
+    "nature": 13,
+    "ivs": [
+      26,
+      23,
+      18,
+      29,
+      13,
+      25
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "12345678",
+    "sync": -1,
+    "pid": "768710E8",
+    "nature": 1,
+    "ivs": [
+      26,
+      2,
+      6,
+      1,
+      9,
+      2
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "12345678",
+    "sync": 0,
+    "pid": "A217F203",
+    "nature": 0,
+    "ivs": [
+      11,
+      10,
+      24,
+      20,
+      1,
+      30
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "12345678",
+    "sync": 13,
+    "pid": "DCEFEDA7",
+    "nature": 13,
+    "ivs": [
+      5,
+      0,
+      29,
+      0,
+      13,
+      17
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "12345678",
+    "sync": 22,
+    "pid": "DE215241",
+    "nature": 22,
+    "ivs": [
+      7,
+      13,
+      27,
+      7,
+      23,
+      15
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "12345678",
+    "offset": 0,
+    "pid": "84EA0B71",
+    "nature": 15,
+    "ivs": [
+      10,
+      12,
+      22,
+      7,
+      29,
+      0
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "12345678",
+    "offset": 4,
+    "pid": "98372684",
+    "nature": 22,
+    "ivs": [
+      12,
+      13,
+      4,
+      12,
+      1,
+      5
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "ABCDEF01",
+    "sync": -1,
+    "pid": "4981535A",
+    "nature": 0,
+    "ivs": [
+      21,
+      13,
+      22,
+      25,
+      23,
+      0
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "ABCDEF01",
+    "sync": 0,
+    "pid": "4981535A",
+    "nature": 0,
+    "ivs": [
+      21,
+      13,
+      22,
+      25,
+      23,
+      0
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "ABCDEF01",
+    "sync": 13,
+    "pid": "F017C012",
+    "nature": 13,
+    "ivs": [
+      17,
+      26,
+      20,
+      21,
+      2,
+      2
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "ABCDEF01",
+    "sync": 22,
+    "pid": "5D00877C",
+    "nature": 22,
+    "ivs": [
+      5,
+      7,
+      20,
+      26,
+      27,
+      3
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "ABCDEF01",
+    "offset": 0,
+    "pid": "435E0147",
+    "nature": 8,
+    "ivs": [
+      12,
+      16,
+      14,
+      31,
+      18,
+      21
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "ABCDEF01",
+    "offset": 4,
+    "pid": "322FA42D",
+    "nature": 21,
+    "ivs": [
+      29,
+      11,
+      25,
+      27,
+      4,
+      22
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "FFFFFFFF",
+    "sync": -1,
+    "pid": "6E64EEFF",
+    "nature": 18,
+    "ivs": [
+      27,
+      15,
+      4,
+      7,
+      0,
+      9
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "FFFFFFFF",
+    "sync": 0,
+    "pid": "63E84166",
+    "nature": 3,
+    "ivs": [
+      21,
+      11,
+      4,
+      13,
+      31,
+      18
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "FFFFFFFF",
+    "sync": 13,
+    "pid": "63E84166",
+    "nature": 3,
+    "ivs": [
+      21,
+      11,
+      4,
+      13,
+      31,
+      18
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "FFFFFFFF",
+    "sync": 22,
+    "pid": "63E84166",
+    "nature": 3,
+    "ivs": [
+      21,
+      11,
+      4,
+      13,
+      31,
+      18
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "FFFFFFFF",
+    "offset": 0,
+    "pid": "26DBBE3A",
+    "nature": 15,
+    "ivs": [
+      19,
+      15,
+      20,
+      29,
+      16,
+      10
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "FFFFFFFF",
+    "offset": 4,
+    "pid": "0EF0A2A1",
+    "nature": 22,
+    "ivs": [
+      16,
+      4,
+      5,
+      31,
+      5,
+      29
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "3546DA12",
+    "sync": -1,
+    "pid": "BDC04926",
+    "nature": 12,
+    "ivs": [
+      29,
+      4,
+      14,
+      2,
+      12,
+      12
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "3546DA12",
+    "sync": 0,
+    "pid": "2723A9CA",
+    "nature": 0,
+    "ivs": [
+      27,
+      4,
+      15,
+      25,
+      18,
+      29
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "3546DA12",
+    "sync": 13,
+    "pid": "2723A9CA",
+    "nature": 0,
+    "ivs": [
+      27,
+      4,
+      15,
+      25,
+      18,
+      29
+    ]
+  },
+  {
+    "mode": "stationary",
+    "seed": "3546DA12",
+    "sync": 22,
+    "pid": "2723A9CA",
+    "nature": 0,
+    "ivs": [
+      27,
+      4,
+      15,
+      25,
+      18,
+      29
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "3546DA12",
+    "offset": 0,
+    "pid": "06208188",
+    "nature": 8,
+    "ivs": [
+      24,
+      3,
+      0,
+      16,
+      14,
+      0
+    ]
+  },
+  {
+    "mode": "roamer",
+    "seed": "3546DA12",
+    "offset": 4,
+    "pid": "064AD8CB",
+    "nature": 9,
+    "ivs": [
+      21,
+      20,
+      15,
+      11,
+      19,
+      29
+    ]
+  }
+]
