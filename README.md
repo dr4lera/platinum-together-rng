@@ -25,14 +25,22 @@ Full SHA-256 checks, not version strings alone, select the memory profile.
 | Executable | Memory reads | Encounter target evidence |
 | --- | --- | --- |
 | 0.1.12, SHA-256 `94b851a80c166329d62a410e2374d79b5e8dddfe2c5b4ae24b13a3e9f805c810` | Verified in the original read-only hunt scripts | Repeated natural shiny stationary encounters, Cresselia/Mesprit releases, and an initial three-bird release matched predictions |
-| 0.1.13, SHA-256 `863322cad34fef3b1073fb200de92b407e07eb1c53a1d0153fd0b3873fea4949` | Standalone monitor reads verified against the running game | Experimental until fresh encounter calibration; live seed/IDs/lead/roamer layout verification does not establish every encounter model |
+| 0.1.13, SHA-256 `863322cad34fef3b1073fb200de92b407e07eb1c53a1d0153fd0b3873fea4949` | Standalone monitor reads verified against the running game | Verified Moltres/Zapdos re-release with Articuno already captured: both PIDs and every IV matched; Zapdos confirmed naturally shiny. Other 0.1.13 encounter models remain uncalibrated |
 | Other builds | Refused | No guesses or fallback scans |
 
 Historical stationary calibration: Uxie, Azelf, Dialga, Palkia, Heatran, Reshiram, Victini, Xerneas, Yveltal and Zekrom. These used Method J, no Synchronize, and zero pre-generation calls. Synchronize arithmetic is implemented, but a native Synchronize hunt has not been independently verified here. Giratina is not validated by this public release.
 
-Cresselia and Mesprit first releases used four pre-generation calls followed by two PID words and two IV words. Oak's birds consume four generation calls per released bird, followed by native route rejection using division by 2260. Re-release predictions use the snapshot's reset states and old route indices, but await an end-to-end re-release test. Different areas, NPC activity, scripts, and menu transitions can add RNG calls. Stop and recalibrate on a mismatch.
+Cresselia and Mesprit first releases used four pre-generation calls followed by two PID words and two IV words. Oak's birds consume four generation calls per released bird, followed by native route rejection using division by 2260. Re-release predictions use the snapshot's reset states and old route indices. A natural 0.1.13 Moltres/Zapdos re-release with Articuno already captured matched both PIDs and all IVs, including a shiny Zapdos. Tested Journal turns advanced two calls each, closing menus consumed zero, and the re-release required no pre-generation offset. Other release-slot combinations still need separate verification. Different areas, NPC activity, scripts, and menu transitions can add RNG calls. Stop and recalibrate on a mismatch.
 
 **Starters are not supported by this predictor.** Static inspection of 0.1.13 supports normal shiny starters and cached starter identities, but the timing of starter selection needs a separate workflow.
+
+## Oak repeats his ending dialogue
+
+Repeated dialogue does not mean a failed release. In the verified 0.1.13 attempt, the birds were generated at the start of the conversation, before Oak finished the repeated lines. Save **before starting** the conversation, rather than trying to stop at his final line. Verify the generated birds through the monitor.
+
+Snapshot bird states: `3` ready for Oak, `0` roaming, `1` caught, `2` defeated and awaiting a later League clear. Eligible release slots mean the League reset has already worked; another League clear is not needed for those ready birds. An inactive roamer alone is ambiguous, so check its state too.
+
+[Non-identifying verification summary](docs/verification.json) records the evidence scope without publishing trainer IDs, live snapshots, or private session data.
 
 ## Run from source
 

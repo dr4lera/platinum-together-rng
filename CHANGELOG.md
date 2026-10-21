@@ -1,5 +1,12 @@
 # Changelog
 
+## Documentation update — October 21, 2026
+
+- Verified a 0.1.13 Moltres/Zapdos re-release with Articuno already captured: both PIDs and all IVs matched, including a naturally shiny Zapdos.
+- Explained that Oak repeats ending dialogue and generates the birds before it finishes; save before starting the conversation.
+- Documented ready/roaming/caught/defeated states and why ready birds do not need another League clear.
+- Other 0.1.13 encounters and untested release-slot combinations remain uncalibrated. The original 1.0.0 download and historical release notes remain unchanged.
+
 ## 1.0.0
 
 - Portable Windows x64 read-only monitor, trainer IDs, lead Synchronize detection, generated-roamer display and target tracking.

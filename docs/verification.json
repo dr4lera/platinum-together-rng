@@ -1,0 +1,28 @@
+{
+  "verified_on": "2026-10-21",
+  "game_version": "0.1.13",
+  "executable_sha256": "863322cad34fef3b1073fb200de92b407e07eb1c53a1d0153fd0b3873fea4949",
+  "encounter": "Oak bird re-release",
+  "eligible_birds": [
+    "Moltres",
+    "Zapdos"
+  ],
+  "previously_captured": "Articuno",
+  "observed": {
+    "both_generated_pids_matched_prediction": true,
+    "all_generated_ivs_matched_prediction": true,
+    "zapdos_shiny_confirmed": true,
+    "journal_advances_per_tested_turn": 2,
+    "menu_closing_rng_calls": 0,
+    "pre_generation_offset": 0,
+    "generated_before_repeated_dialogue_finished": true,
+    "normal_save_completed": true
+  },
+  "method": "Read-only observation and normal inputs; no memory writes or save-file edits",
+  "limits": [
+    "One eligible-slot combination in one saved state",
+    "Does not validate other 0.1.13 encounter models",
+    "Single-bird re-release combinations remain unverified"
+  ],
+  "privacy": "Trainer IDs, individual Pokemon PIDs, live seeds, snapshots and private session files omitted"
+}

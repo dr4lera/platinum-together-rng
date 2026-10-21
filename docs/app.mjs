@@ -2,7 +2,7 @@ import {NATURES,hex,distance} from './rng.mjs';
 const $=id=>document.getElementById(id);
 let snapshot=null,worker=null,example=false;
 const DEFAULTS={stationary:0,roamer:4,birds:0};
-const HELP={stationary:'Verified in 0.1.12 for Uxie, Azelf, Dialga, Palkia, Heatran, Reshiram, Victini, Xerneas, Yveltal and Zekrom. Giratina is not yet validated by this public tool.',roamer:'First Cresselia / Mesprit release only. The Pokémon is fixed when released, not when encountered later. Measured pre-generation offset: 4.',birds:'Requires an imported snapshot. Uses Oak’s eligible release slots, previous map, and route state. Re-release calculations are experimental.'};
+const HELP={stationary:'Verified in 0.1.12 for Uxie, Azelf, Dialga, Palkia, Heatran, Reshiram, Victini, Xerneas, Yveltal and Zekrom. Giratina is not yet validated by this public tool.',roamer:'First Cresselia / Mesprit release only. The Pokémon is fixed when released, not when encountered later. Measured pre-generation offset: 4.',birds:'Requires an imported snapshot. Uses Oak’s eligible release slots, previous map, and route state. Verified on 0.1.13 for Moltres + Zapdos re-release with Articuno already caught. Other release-slot combinations still need calibration.'};
 for(let i=0;i<25;i++)$('sync').add(new Option(`On — ${NATURES[i]} lead`,String(i)));
 const message=(id,text,error=false)=>{$(id).textContent=text;$(id).classList.toggle('error',error);};
 function seedValue(s){s=s.trim().replace(/^0x/i,'');if(!/^[0-9a-f]{1,8}$/i.test(s))throw Error('Enter a seed of 1–8 hexadecimal digits.');return parseInt(s,16)>>>0;}
